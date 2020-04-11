@@ -8,6 +8,8 @@ def line(katz_deli)
     new.array.push("#{counter}. #{name}")
     counter += 1
     end
-    puts "The counter is currently: #{new.array.join(",")}"
-    
+    puts "The line is currently: #{new.array.join(",")}"
+  elsif katz_deli.length == 0
+    puts "The line is currently empty."
+  end  
   
