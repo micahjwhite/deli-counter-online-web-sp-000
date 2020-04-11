@@ -11,5 +11,6 @@ def line(katz_deli)
     puts "The line is currently: #{new.array.join(",")}"
   elsif katz_deli.length == 0
     puts "The line is currently empty."
-  end  
+  end
+end
   
